@@ -1,13 +1,6 @@
 import '../styles/style.css'
-import HomePage from './HomePage'
-import ListingPage from './ListingPage'
+import 'bootstrap/dist/css/bootstrap.css'
 
-
-export default function App() {
-  return (
-  <>
-    <HomePage/>
-    <ListingPage/>
-  </>
-  )
+export default function App({Component, pageProps}) {
+    return <Component {...pageProps} />
 }
