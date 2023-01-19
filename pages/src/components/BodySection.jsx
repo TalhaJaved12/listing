@@ -41,11 +41,6 @@ function BodySection() {
                 alt="restaurant logo"
                 height={50} 
                 width={50}
-                // style={{position: "absolute",
-                //     width: "268px",
-                //     right: "-10px",
-                //     bottom: "-18px",
-                // }}
             />
                             </div>
                         <h5>resturant</h5>
@@ -58,11 +53,6 @@ function BodySection() {
                 alt="shopping logo"
                 height={50} 
                 width={50}
-                // style={{position: "absolute",
-                //     width: "268px",
-                //     right: "-10px",
-                //     bottom: "-18px",
-                // }}
             /></div>
                         <h5>shopping</h5>
                     </div>
@@ -74,11 +64,6 @@ function BodySection() {
                 alt="night logo"
                 height={50} 
                 width={50}
-                // style={{position: "absolute",
-                //     width: "268px",
-                //     right: "-10px",
-                //     bottom: "-18px",
-                // }}
             /></div>
                         <h5>nightlife</h5>
                     </div>
@@ -90,11 +75,6 @@ function BodySection() {
                 alt="active logo"
                 height={50} 
                 width={50}
-                // style={{position: "absolute",
-                //     width: "268px",
-                //     right: "-10px",
-                //     bottom: "-18px",
-                // }}
             /></div>
                         <h5>active life</h5>
                     </div>
@@ -107,11 +87,6 @@ function BodySection() {
                 alt="beauty logo"
                 height={50} 
                 width={50}
-                // style={{position: "absolute",
-                //     width: "268px",
-                //     right: "-10px",
-                //     bottom: "-18px",
-                // }}
             />
                             </div>
                         <h5>Beauty & Spa</h5>
@@ -125,11 +100,6 @@ function BodySection() {
                             alt="Logo"
                             height={50} 
                             width={50}
-                //             style={{position: "absolute",
-                //                     width: "268px",
-                //                     right: "-10px",
-                //                     bottom: "-18px",
-                // }}
             />                        </div>
                         <h5>Automotive</h5>
                     </div>
@@ -142,11 +112,6 @@ function BodySection() {
                 alt="home logo"
                 height={50} 
                 width={50}
-                // style={{position: "absolute",
-                //     width: "268px",
-                //     right: "-10px",
-                //     bottom: "-18px",
-                // }}
             />                        </div>
                         <h5>Home Services</h5>
                     </div>
@@ -159,11 +124,6 @@ function BodySection() {
                 alt="more logo"
                 height={50} 
                 width={50}
-                // style={{position: "absolute",
-                //     width: "268px",
-                //     right: "-10px",
-                //     bottom: "-18px",
-                // }}
             />
                         </div>
                         <h5>more</h5>
