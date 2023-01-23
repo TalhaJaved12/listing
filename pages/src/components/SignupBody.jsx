@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 import LoginImage from '/public/imgs/login.png';
 
@@ -57,7 +58,7 @@ function SignupBody() {
                                 </div>
                             </div>
                             <div class="col-md-7">
-                                <div class="login-img"><img src={LoginImage} alt="..." /></div>
+                                <div class="login-img"><Image src={LoginImage} alt="..."/></div>
                             </div>
                         </div>
                     </div>
