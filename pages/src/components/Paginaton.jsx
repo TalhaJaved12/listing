@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
-import arrowLeft from '/public/imgs/icons/arrowLeft.png';
-import arrowRight from '/public/imgs/icons/arrowRight.png';
+import arrowLeft from '/public/imgs/icons/arrow-left.png';
+import arrowRight from '/public/imgs/icons/arrow-right.png';
 function Paginaton() {
   return (
     <div className="theme-pagination">

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import Map from './Map';
 import filter from '/public/imgs/icons/filter.png';
-import listingOne from '/public/imgs/listingOne.png';
+import listingOne from '/public/imgs/listing-one.png';
 import review from '/public/imgs/review.png';
 import verify from '/public/imgs/verify.png';
 import service from '/public/imgs/service.png';

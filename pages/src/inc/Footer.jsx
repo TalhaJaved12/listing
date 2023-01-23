@@ -1,78 +1,68 @@
 import React from 'react'
 
 function Footer() {
-  return (
-    <>
-        <footer className="footer">
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-3">
-                        <div className="comm-footer-navs">
-                            <h4>About</h4>
-                            <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Careers</a></li>
-                                <li><a href="#">Press</a></li>
-                                <li><a href="#">Investor Relations</a></li>
-                                <li><a href="#">Trust & Safety</a></li>
-                                <li><a href="#">Content Guidelines</a></li>
-                                <li><a href="#">Accessibility Statement</a></li>
-                                <li><a href="#">Terms of Service</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Ad Choices</a></li>
-                                <li><a href="#">Your Privacy Choices</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-md-3">
-                        <div className="comm-footer-navs">
-                            <h4>Discover</h4>
-                            <ul>
-                                <li><a href="#">Yelp Project Cost Guides</a></li>
-                                <li><a href="#">Collections</a></li>
-                                <li><a href="#">Talk</a></li>
-                                <li><a href="#">Events</a></li>
-                                <li><a href="#">Yelp Blog</a></li>
-                                <li><a href="#">Support</a></li>
-                                <li><a href="#">Yelp Mobile</a></li>
-                                <li><a href="#">Developers</a></li>
-                                <li><a href="#">RSS</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-md-3">
-                        <div className="comm-footer-navs">
-                            <h4>Yelp for Business</h4>
-                            <ul>
-                                <li><a href="#">Yelp for Business</a></li>
-                                <li><a href="#">Business Owner Login</a></li>
-                                <li><a href="#">Claim your Business Page</a></li>
-                                <li><a href="#">Advertise on Yelp</a></li>
-                                <li><a href="#">Yelp for Restaurant Owners</a></li>
-                                <li><a href="#">Table Management</a></li>
-                                <li><a href="#">Business Success Stories</a></li>
-                                <li><a href="#">Business Support</a></li>
-                                <li><a href="#">Yelp Blog for Business</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-md-3">
-                        <div className="comm-footer-navs">
-                            <h4>Languages</h4>
-                            <ul>
-                                <li><a href="#">English</a></li>
-                            </ul>
-                            <h4 className="mt-2">Countries</h4>
-                            <ul>
-                                <li><a href="#">United States</a></li>
-                            </ul>
+    return (
+        <>
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="comm-footer-navs">
+                                    <a href="#" class="brand-footer"><img src="./imgs/LOGO.png" alt="..."/></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet fermentum enim.
+                                        Sed lorem eros, sollicitudin nec nisl sit amet, iaculis mollis ligula.</p>
+                                    <div class="footer-social-icons d-none">
+                                        <a href="#" class="ico-anchor"><img src="" alt="..."/></a>
+                                        <a href="#" class="ico-anchor"><img src="" alt="..."/></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="comm-footer-navs">
+                                    <h4>Quick Links</h4>
+                                    <ul>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Our Blog</a></li>
+                                        <li><a href="#">Support</a></li>
+                                        <li><a href="#">Terms of Service</a></li>
+                                        <li><a href="#">Developers</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="comm-footer-navs">
+                                    <h4>Languages</h4>
+                                    <ul>
+                                        <li><a href="#">English</a></li>
+                                    </ul>
+                                    <h4 class="mt-2">Countries</h4>
+                                    <ul>
+                                        <li><a href="#">United States</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="comm-footer-navs">
+                                    <h4>Contact</h4>
+                                    <ul>
+                                        <li><a href="#">1 Sleepy Hollow Drive Wilkes Barre PA 18702</a></li>
+                                        <li><a href="#">info@newlogo.net</a></li>
+                                        <li><a href="#">+1-202-555-0189</a></li>
+                                        <li><a href="#">+1-202-555-0116</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </footer>
-    </>
-  )
+                <div class="lower-footer">
+                    © 2023 newlogo. All Rights Reserved
+                </div>
+            </footer>
+        </>
+    )
 }
 
 export default Footer

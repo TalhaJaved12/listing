@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import arrowdown from '/public/imgs/icons/arrowdown.png';
+import arrowdown from '/public/imgs/icons/arrow-down.png';
 import banner from '/public/imgs/banner.png';
 import search from '/public/imgs/icons/search.png';
 import SearchBar from './SearchBar';
