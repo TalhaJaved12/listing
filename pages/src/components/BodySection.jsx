@@ -1,13 +1,4 @@
 import React from 'react';
-import line from '/public/imgs/line.png';
-import resturant from '/public/imgs/resturant.png';
-import shopping from '/public/imgs/shopping.png';
-import night from '../../../public/imgs/night.png';
-import active from '/public/imgs/active.png';
-import beauty from '/public/imgs/beauty.png';
-import automotive from '/public/automotive.png';
-import home from '/public/imgs/home.png';
-import more from '/public/imgs/more.png';
 import Image from 'next/image';
 
 function BodySection() {
@@ -21,7 +12,7 @@ function BodySection() {
           >
             OUR MAIN<span class="orange">&nbsp;CATEGORIES</span>
             <Image
-              src={line}
+              src="/imgs/line.png"
               alt="line"
               height={34}
               width={268}
@@ -38,7 +29,7 @@ function BodySection() {
               <div className="cat-box">
                 <div className="cat-box-img">
                   <Image
-                    src={resturant}
+                    src="/imgs/resturant.png"
                     alt="restaurant logo"
                     height={50}
                     width={50}
@@ -51,7 +42,7 @@ function BodySection() {
               <div className="cat-box">
                 <div className="cat-box-img">
                   <Image
-                    src={shopping}
+                    src="/imgs/shopping.png"
                     alt="shopping logo"
                     height={50}
                     width={50}
@@ -64,7 +55,7 @@ function BodySection() {
               <div className="cat-box">
                 <div className="cat-box-img">
                   {/* <Image src={night} alt="night logo" height={50} width={50} /> */}
-                  <Image src={"/imgs/night.png"} alt="night logo" height={50} width={50} />
+                  <Image src="/imgs/night.png" alt="night logo" height={50} width={50} />
                 </div>
                 <h5>nightlife</h5>
               </div>
@@ -73,7 +64,7 @@ function BodySection() {
               <div className="cat-box">
                 <div className="cat-box-img">
                   <Image
-                    src={active}
+                    src="/imgs/active.png"
                     alt="active logo"
                     height={50}
                     width={50}
@@ -86,7 +77,7 @@ function BodySection() {
               <div className="cat-box">
                 <div className="cat-box-img">
                   <Image
-                    src={beauty}
+                    src="/imgs/beauty.png"
                     alt="beauty logo"
                     height={50}
                     width={50}
@@ -98,7 +89,7 @@ function BodySection() {
             <div className="col-md-3">
               <div className="cat-box">
                 <div className="cat-box-img">
-                  <Image src={automotive} alt="Logo" height={50} width={50} />{' '}
+                  <Image src="/automotive.png" alt="Logo" height={50} width={50} />{' '}
                 </div>
                 <h5>Automotive</h5>
               </div>
@@ -106,7 +97,7 @@ function BodySection() {
             <div className="col-md-3">
               <div className="cat-box">
                 <div className="cat-box-img">
-                  <Image src={home} alt="home logo" height={50} width={50} />{' '}
+                  <Image src="/imgs/home.png" alt="home logo" height={50} width={50} />{' '}
                 </div>
                 <h5>Home Services</h5>
               </div>
@@ -114,7 +105,7 @@ function BodySection() {
             <div className="col-md-3">
               <div className="cat-box">
                 <div className="cat-box-img">
-                  <Image src={more} alt="more logo" height={50} width={50} />
+                  <Image src="/imgs/more.png" alt="more logo" height={50} width={50} />
                 </div>
                 <h5>more</h5>
               </div>
