@@ -5,7 +5,7 @@ import shopping from '/public/imgs/shopping.png';
 import night from '../../../public/imgs/night.png';
 import active from '/public/imgs/active.png';
 import beauty from '/public/imgs/beauty.png';
-import automotive from '/public/imgs/automotive.png';
+import automotive from '/public/automotive.png';
 import home from '/public/imgs/home.png';
 import more from '/public/imgs/more.png';
 import Image from 'next/image';
